@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>My Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        /* Header */
+        header {
+            background-image: url('your-banner-image.jpg'); /* Replace with actual banner image */
+            background-size: cover;
+            background-position: center;
+            height: 200px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header h1 {
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+
+        /* Navigation */
+        nav {
+            background-color: blue;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 20px;
+        }
+
+        /* Gallery Table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td {
+            width: 25%;
+            padding: 10px;
+            text-align: center;
+            vertical-align: top;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        button {
+            padding: 5px 10px;
+            margin-top: 5px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: blue;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- A.1 Header -->
+    <header id="home">
+        <h1>My Awesome Shop</h1>
+    </header>
+
+    <!-- A.2 Navigation -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#shopinfo">Shop Information</a>
+        <a href="#gallery">Shop Gallery</a>
+        <a href="#footer">Footer</a>
+    </nav>
+
+    <!-- A.3 Shop Information -->
+    <section id="shopinfo">
+        <h2>My Awesome Shop</h2>
+        <h5><p>Bulbulala, Santiago</p></h5>
+        <p>Shop Number: 09950996921</p>
+        <h5><p>Email: mitzieponce05@gmail.com</p></h5>
+        <h5><p>Operating Hours: Mon - Sat, 9:00 AM - 6:00 PM</p></h5>
+    </section>
+
+    <!-- A.4 Shop Gallery -->
+    <section id="gallery">
+        <h2>Shop Gallery</h2>
+        <table>
+            <tr>
+                <!-- Repeat this block 4 times per row (total 12 items = 3 rows) -->
+                <td>
+                    <img src="050f9480-b586-4a8e-b185-4a8caf6d42b2.jpg" alt="Item 1">
+                    <h4><b>Abel Iloco</b></h4>
+                    <p> Made of handwoven fabric.</p>
+                    <h4><b>100.00</b></h4>
+                    <button>Buy Now</button>
+                </td>
+                <td>
+                    <img src="5646c0e0-0c72-4421-a008-6fbcba3d7092.jpg" alt="Item 2">
+                    <h4><b>Buri Bag</b></h4>
+                    <p>A handcrafted and hand woven bag made from buri palm tree.</p>
+                    <h4><b>200.00</b></h4>
+                    <button>Buy Now</button>
+                </td>
+                <td>
+                    <img src="344a085e-9bdd-4baf-b25c-8a6495c164fd.jpg" alt="Item 3">
+                    <h4><b>Filipiniana Dress</b></h4>
+                    <p>A formal and traditional outfit for women in the philippines.</p>
+                    <h4><b>1000.00</b></h4>
+                    <button>Buy Now</button>
+                </td>
+                <td>
+                    <img src="50af8ba0-c890-4b4c-9450-32bbd09d93d9.jpg" alt="Item 4">
+                    <h4><b>Oxygen Scent for Women</b></h4>
+                    <p>A fresh, light, and airy scent.</p>
+                    <h4><b>500.00</b></h4>
+                    <button>Buy Now</button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="36125659-8917-4217-8416-eaa55e5185b3.jpg" alt="Item 5">
+                    <h4><b>Baggy Pants</b></h4>
+                    <p>Loose-fitting, designed for comfort, and relaxed or streetwear style.</p>
+                    <h4><b>200.00</b></h4>
+                    <button>Buy Now</button>
+                </td>
+                <td>
+                    <img src="95d8a2de-c578-49b1-a477-93c8c1961c66.jpg" alt="Item 6">
+                    <h4><b>Vigan Longganisa</b></h4>
+                    <p>A well-known filipino pork sausage from vigan.</p>
+                    <h4><b>150.00</b></h4>
+                    <button>Buy Now</button>
+                </td>
+                <td>
+                    <img src="4463e7b9-a196-4974-a262-34843b1e44f3.jpg" alt="Item 7">
+                    <h4><b>Tupig</b></h4>
+                    <p>A filipino rice c
